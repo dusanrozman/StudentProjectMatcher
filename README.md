@@ -25,8 +25,8 @@ The Application was made using C++ and QTCreator for the GUI portion.
 |  | Alice | Admin1 |
 |  | Bob | Admin2 |
 |  | Charlie |	Admin3	|
-|   | Peter |  |
-|   | Susan |  |
+|  | Peter |  |
+|  | Susan |  |
 
 For testing purposes the passwords are all 'p'
 Once you log in the rest should be simple.
