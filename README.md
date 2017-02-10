@@ -3,7 +3,7 @@
 # Description
 This was an academic project that was created by Myself and two other students. The application is meant to solve the age old problem of placing students into groups/teams for group projects. The application allows Administrators (Professors) to create a project and allow student users to join the project. The students have the ability to change a variety of attributes in their profile to best mirror their skills and allow them to indicate what an ideal project partner would be for them. Once students are registered an Administrator can go ahead and run the CUPID algorithm which sorts students as best as possible based on their preferences.
 
-The Application was made using C++ and QTCreator for the GUI portion. 
+The Application was made using C++ and QTCreator for the GUI portion. The application also uses SQLite database to store data.
 
 # How to run the project:
  - Import project using 'cuPIDapp.pro' file in the 'cuPIDapp' folder using QT on the COMP3004 VM.
