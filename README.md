@@ -1,96 +1,34 @@
 # StudentProjectMatcher
 
-Files Included:
+# Description
+This was an academic project that was created by Myself and two other students. The application is meant to solve the age old problem of placing students into groups/teams for group projects. The application allows Administrators (Professors) to create a project and allow student users to join the project. The students have the ability to change a variety of attributes in their profile to best mirror their skills and allow them to indicate what an ideal project partner would be for them. Once students are registered an Administrator can go ahead and run the CUPID algorithm which sorts students as best as possible based on their preferences.
 
-- QT: Includes all the source code to run the QT project. 
+The Application was made using C++ and QTCreator for the GUI portion. 
 
-
-
-How to run the project:
-
+# How to run the project:
  - Import project using 'cuPIDapp.pro' file in the 'cuPIDapp' folder using QT on the COMP3004 VM.
-
  - Compile
-
- - ***IMPORTANT*** After compiling the program you should have a folder called 'build-cupIDapp-Desktop-Release'. the cupid_new.db provided needs to be manually placed in here. 
-
+ - *IMPORTANT* After compiling the program you should have a folder called 'build-cupIDapp-Desktop-Release'. the cupid_new.db provided needs to be manually placed in here. 
  - Run the program.
 
-
-
-
-
-How it works:
-
+# How it works:
   - Once you run the program a login window will appear:
-
   - You can sign in as either an Admin or as a Student
-
   - There are already 25 student accounts and a few admin accounts
-
   - Select your username and select whether you are an admin or student using the radio buttons
+  - The names are case sensitive so "Alice" and "alice" are different if you sign in with "Alice" alice already exists and is registered."alice" however will create a new student account called 'alice' 
 
-  - The names are case sensitive so "Alice" and "alice" are different
+# Use any of these student or admin names:
 
-    if you sign in with "Alice" alice already exists and is registered.
+    | Accounts 	| Students  |	Admins |
+    |--------- 	|:--------:|    ------:|
+   |		| Alice	|	Admin1	|
+	| | Bob		|	Admin2	|
+	| | Charlie	|	Admin3	|
+	| | Peter	|		|
+	| | Susan	|		|
 
-    "alice" however will create a new student account called 'alice' 
-
-    use any of these student or admin names:
-
-    | Account: |	Student	|	Admin |
-    |--------- |:--------:|------:|
-   	| | Alice	|	Admin1 |
-
-		Bob		Admin2
-
-		Charlie		Admin3
-
-		Dale		
-
-		Evan	
-
-		Frank
-
-		George
-
-		Henry
-
-		Ivan
-
-		Janice
-
-		Karl
-
-		Louis
-
-		Mary
-
-		Nathan
-
-		Olga
-
-		Peter
-
-		Quinton
-
-		Rosanne
-
-		Susan
-
-		Tyler
-
-		Usain
-
-		Violet
-
-		Wolly
-
-		Xavier
-
-		Yoda
-
-		Zebra
+For testing purposes the passwords are all 'p'
 Once you log in the rest should be simple.
 # the Admin Menu/Profile window:
 - Once you log in to an Admin account, you'll be in the Admin profile window
