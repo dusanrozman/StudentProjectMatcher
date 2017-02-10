@@ -20,8 +20,8 @@ The Application was made using C++ and QTCreator for the GUI portion.
 
 # Use any of these student or admin names:
 
-    | Accounts 	| Students  |	Admins |
-    |--------- 	|:--------:|    ------:|
+    | Accounts 	| Students |Admins |
+    |--------- 	|:--------:|------:|
    |		| Alice	|	Admin1	|
 	| | Bob		|	Admin2	|
 	| | Charlie	|	Admin3	|
